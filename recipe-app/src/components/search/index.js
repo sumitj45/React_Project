@@ -3,9 +3,10 @@ import './style.css';
 
 
 const Search=(props)=>{
-    console.log(props)
-    //child to parent
+   
+    //child to parent //destructruing
     const {getDataFromSearch}=props;
+    //state
 const [inputValue,setInputValue]=useState(""); //initial value
 
 const handleInputValue=(e)=>{
@@ -14,14 +15,14 @@ const handleInputValue=(e)=>{
    //set updated val
     setInputValue(value);
 }
+
 const handleSubmit=(e)=>{
 e.preventDefault(); //this is to prevent from getting refreshed
-
 // this is a method,passing back the data to the parent component
 getDataFromSearch(inputValue);
-
 }
-console.log(inputValue)
+
+
     return (
         <form  onSubmit={handleSubmit}className="Search">
             <input name="search" onChange={handleInputValue} value={inputValue} placeholder="Search Recipes" id="search"/>
