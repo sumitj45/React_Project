@@ -1,0 +1,228 @@
+/* Left side page */
+
+.left-side {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: rgb(90, 192, 116);
+}
+
+.left-side h1 {
+    color: rgb(243, 207, 87);
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 10rem 0 2rem;
+    text-align: center;
+}
+
+
+/* right side page */
+
+.right-side {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #F5F5F5;
+}
+
+.right-div {
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-div h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.t1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.t2 {
+    position: relative;
+    top: 30px;
+    left: -80px;
+}
+
+h2 {
+    left: -23px;
+    font-weight: 800;
+    position: relative;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: -36px;
+}
+
+.GoogleOAuthProvider {
+    /* border: 2px solid black; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.google-button {
+    /* margin-top: 2rem; */
+    background-color: #F5F5F5;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* padding: 5px; */
+    /* text-align: center; */
+    /* font-weight: 200;
+    font-size: 12px; */
+    /* width: 46%; */
+    cursor: pointer;
+    margin-right: 2rem;
+    border: none;
+}
+
+.apple-button {
+    /* margin-top: 2rem; */
+    background-color: white;
+    color: #858585;
+    font-family: 'Montserrat', sans-serif;
+    border: .2px solid black;
+    /* border-radius: 10px; */
+    padding: 12px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    width: 46%;
+    cursor: pointer;
+    border: none;
+}
+
+.div-under {
+    margin-top: 2rem;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: white;
+}
+
+.div-under .l1 {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-left: 4rem;
+}
+
+.div-under .i1 {
+    padding: 0.438rem;
+    margin-left: 4rem;
+    margin-top: 0.313rem;
+    width: 100%;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.link {
+    color: #346BD4;
+    margin-top: 0.313rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.submit-button {
+    margin-top: 0.313rem;
+    margin-right: 3rem;
+    margin-bottom: 0.313rem;
+    width: 100%;
+    padding: 0.438rem;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.submit-button:hover {
+    background-color: rgb(37, 43, 43);
+}
+
+.t2 {
+    text-align: center;
+    margin-top: 1rem;
+    color: #858585;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.link-register {
+    color: #346BD4;
+    cursor: pointer;
+}
+
+.haAclf {
+    padding: -13px 3px;
+}
+
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+    /* Left side page */
+    .left-side {
+        width: 40%;
+        height: 100vh;
+        display: inline-block;
+        background-color: rgb(19 131 110);
+    }
+    .left-side h1 {
+        font-size: 4.5rem;
+        width: 32%;
+        margin: 20rem 0 0 11rem;
+        text-align: left;
+    }
+    /* right side page */
+    .right-side {
+        width: 60%;
+        height: 100vh;
+        float: right;
+        display: flex;
+        background-color: #F5F5F5;
+    }
+    .right-div {
+        width: 50%;
+    }
+    .google-button .apple-button {
+        width: auto;
+        margin-right: 1rem;
+    }
+    .div-under .i1 {
+        width: 70%;
+    }
+    .submit-button {
+        width: 100%;
+    }
+    h2 {
+        left: -73px;
+        font-weight: 800;
+        position: relative;
+        font-size: x-large;
+        text-decoration: underline;
+    }
+}

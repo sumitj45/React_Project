@@ -1,5 +1,6 @@
 import React from "react";
 
+// passing props
 const SearchBar = ({
     handleSubmit,
     query,
